@@ -1,0 +1,13 @@
+* DONE 3-30-2013
+CLOSED: [2013-03-30 六 18:38]
+** repository
+- create repository
+** README.org
+- touch README.org
+- edit README.org
+** edbfm.el
+- touch edbfm.el
+- edit edbfm.el
+** .gitignore
+- touch .gitignore
+- edit .gitignore
