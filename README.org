@@ -1,4 +1,5 @@
 * edbfm
 - edbfm: a emacs douban fm client
 ** douban fm
-- Please check: http://douban.fm/
+- For more about douban, Please check: http://www.douban.com/
+- For more about douban fm, Please check: http://douban.fm/
