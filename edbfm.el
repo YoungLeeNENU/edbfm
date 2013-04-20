@@ -20,20 +20,14 @@
 ;; GNU Emacs; see the file COPYING.  If not, write to the Free Software
 ;; Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 ;;
-;; ----------------------------------------------------
-;; |                                    |             |
-;; |                                    |    ALBUM    |
-;; |                                    |             |
-;; |                                    |    IAMGE    |
-;; |                                    |             |
-;; |             EDIT AREA              |-------------|
-;; |                                    |   LOGIN &   |
-;; |                                    |  OPERATION  |
-;; |                                    |-------------|
-;; |                                    |             |
-;; |                                    |    OTHER    |
-;; |                                    |   CHANNELS  |
-;; |                                    |             |
-;; ----------------------------------------------------
-;;
 ;; Code:
+
+(defun edbfm ()
+  "edbfm status message."
+  (interactive)
+  (defvar status-msg-on "Edbfm status: ON")
+  (message status-msg-on))
+
+(provide 'edbfm)
+
+;; edbfm.el ends here
